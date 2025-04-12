@@ -4,4 +4,4 @@ const pessoa = {
     profissao: 'desenvolvedora'
 };
 
-console.log(pessoa.idade); 
+console.log(pessoa.nome); 

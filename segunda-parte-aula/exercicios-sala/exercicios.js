@@ -27,26 +27,26 @@ como argumento e imprime uma frase com as informações.
 
 */
 
-const numeros = [];
+/*const numeros = [];
 for (let i = 0; i < 5; i++) {
     const numero = prompt("Digite um número:");
     numeros.push(numero);
 }
-console.log("Números inseridos:", numeros); 
+console.log("Números inseridos:", numeros); */
 
 
-const nomeLivro = prompt("Digite o título do livro:");
+const titulo = prompt("Digite o título do livro:");
 const autor = prompt("Digite o autor do livro:");
 const ano = prompt("Digite o ano do livro:");
 
 const livro = {
-    titulo: nomeLivro,
+    titulo: titulo,
     autor: autor,
     ano: ano
 };
 
 function exibirInformacoes(livro) {
-    console.log(`O livro ${livro.titulo} foi escrito por ${livro.autor} em ${livro.ano}.`);
+    console.log(`O livro '${livro.titulo}' foi escrito por '${livro.autor}' em '${livro.ano}'.`);
 }
 
 exibirInformacoes(livro); 

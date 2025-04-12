@@ -8,7 +8,7 @@ O programa deve:
 
 2- Continuar pedindo entradas até que o usuário digite "sair".
 
-3- Exibir um relatório com a média das emissões de todos os países, e o país com a maior e a menor emissão.
+3- Exibir um relatório com a média das emissões de todos os países, o país com a maior e a menor emissão.
 
 */
 

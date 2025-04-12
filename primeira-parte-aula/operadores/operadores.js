@@ -6,7 +6,6 @@ let subtracao = a - b;
 let multiplicacao = a * b; 
 let divisao = a / b; 
 let resto = a % b;  
-console.log(resto)
 
 let c = true;
 let d = false;
@@ -14,4 +13,4 @@ let d = false;
 let e = c && d; // false (ambos devem ser true)
 let ou = c || d; // true (pelo menos um deve ser true)
 let nao = !c;    // false (nega o valor)
-console.log(nao)
+

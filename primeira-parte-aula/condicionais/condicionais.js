@@ -8,7 +8,6 @@ if (idade >= 18) {
 
 let nota = 100;
 
-
 if (nota >= 90) {
     console.log("Aprovado com distinção.");
 } else if (nota >= 70) {
